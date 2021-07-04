@@ -1,0 +1,91 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+  background-image: url("../img/kantor ppddp.jpeg");
+  background-size: Cover;
+  background-repeat: no-repeat;
+  background-color: darkblue;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+.top-wrapper {
+  padding: 180px 0 50px 0;
+  color: white;
+  text-align: center;
+  height: 100%;
+}
+
+.container {
+  background-color: rgba(0, 0, 130, 0.3);
+  width: 1170px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  height: 100%;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.login-box{
+  display: block;
+  background-color: rgba(0, 0, 130, 0.3);
+  align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.loginin{
+  background-color: rgba(0, 0, 140, 0.3);
+  display: block;
+  width: 400px;
+  height: 30%;
+  text-align: center;
+  padding: 50px 0px;
+  margin: auto;
+}
+
+.login p{
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.loginat{
+  position: relative;
+  color: white;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+button {
+  padding: 5px 15px;
+  margin-top: 20px;
+}
